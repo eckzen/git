@@ -112,6 +112,7 @@ Delete a branch
 **Remotes**
 
 Remote server
+<<<<<<< HEAD
 
 ^      |
 
@@ -123,6 +124,13 @@ Remote server
 
 ^                                |- merge origin / master
 
+=======
+^      |
+^ push |fetch
+^      |                       __
+^ My computer--->origin/master   |
+^                                |- merge origin / master
+>>>>>>> 1c4b0bb5936ffb615d8353e68b32e386dcb7a7d0
 Master                         __|
 
 *merge origin/master*
