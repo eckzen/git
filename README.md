@@ -111,21 +111,12 @@ Delete a branch
 
 **Remotes**
 
- HEAD
+    Push  - is used if i want to make my changes up to remote
 
-^.......|
+    Fetch - from Remote to MyPC (origin/master)
+   
+    Merge origin/master - MyPC to sync with Master
 
-^ push..|fetch
-
-^.......|......................._
-
-^ My computer--->origin/master...|
-
-^................................|- merge origin / master
-
-Master.........................__|
-
-*merge origin/master*
 
     used to sync origin/master to master
 
