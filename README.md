@@ -113,17 +113,17 @@ Delete a branch
 
  HEAD
 
-^      |
+^.......|
 
-^ push |fetch
+^ push..|fetch
 
-^      |                       __
+^.......|......................._
 
-^ My computer--->origin/master   |
+^ My computer--->origin/master...|
 
-^                                |- merge origin / master
+^................................|- merge origin / master
 
-Master                         __|
+Master.........................__|
 
 *merge origin/master*
 
